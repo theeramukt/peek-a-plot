@@ -1,0 +1,65 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black; /* Frame color */
+  width: 300px; /*  ลดความกว้างของ formContainer เป็น 80% */
+  border-radius: 20px;
+  height: 50vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  width: 60%;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column; /*Arrange items in reverse order vertically */
+}
+
+.inputLabel {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.input {
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: "#ccc";
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+.button {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  
+}
+
+.buttonText {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+} 
+
+.forgot {
+  font-size: 12px;
+}
